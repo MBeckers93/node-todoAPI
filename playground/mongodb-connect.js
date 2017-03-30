@@ -10,7 +10,7 @@ MongoClient.connect('mongodb://localhost:27017/TodoApp', (err, db) => {
 		return console.log('Unable to connect to MongoDB server');
 	}
 
-	// console.log('Connected to MongoDB server');
+	 console.log('Connected to MongoDB server');
 
 	// db.collection('Todos').insertOne({
 	// 	text: 'Something to do',
@@ -32,7 +32,7 @@ MongoClient.connect('mongodb://localhost:27017/TodoApp', (err, db) => {
 	// 		return console.log('Unable to insert todo', err);
 	// 	}
 
-	// 	console.log(result.ops[0]._id.getTimestamp());
+	//	console.log(result.ops[0]._id.getTimestamp());
 	// });
 
 	db.close();
